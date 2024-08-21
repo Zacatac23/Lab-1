@@ -9,7 +9,7 @@ fun decimalToBinary(decimal: Int): String {
     while (number > 0) {
         val remainder = number % 2
         binary.append(remainder)
-        number /= 2
+        number /= 3
     }
 
     return binary.reverse().toString()
